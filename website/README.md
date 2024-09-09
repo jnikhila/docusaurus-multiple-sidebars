@@ -1,41 +1,14 @@
 # Website
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+The `website` folder of the Docusaurus Multiple Sidebars project! This folder serves as the root of the Docusaurus project and contains all the documentation files and configuration needed for the site.
 
-### Installation
+## Contents
 
-```
-$ yarn
-```
+- **`docs/`**: 
+  - Contains all the markdown files for showcasing the multiple sidebars.
 
-### Local Development
+- **`docusaurus.config.js`**: 
+  - Showcases the customization required for setting up top bar.
 
-```
-$ yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+- **`sidebars.js`**: 
+  - Showcases configuration for multiple sidebars navigation to organize the documentation content.
