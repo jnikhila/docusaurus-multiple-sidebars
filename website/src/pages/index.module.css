@@ -1,23 +1,58 @@
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
-
 .heroBanner {
-  padding: 4rem 0;
+  padding: 1rem 0;
+  background-color: var(--ifm-color-primary);
+}
+
+.hero{
+  display: block !important;
+}
+
+.heroTitle {
+  color: white;
+  font-size: 2.5rem;
+  text-align: center !important;
+  background-color: var(--ifm-color-primary);
+}
+
+.heroSubtitle {
+  color: black;
+  font-size: 1.2rem;
   text-align: center;
-  position: relative;
-  overflow: hidden;
+  margin-top: 1rem;
 }
 
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
-}
-
-.buttons {
+.cardsContainer {
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
+  gap: 1rem;
+  margin: 2rem;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  max-width: 350px;
+  text-align: center;
+  margin: 1rem;
+}
+
+.card h3 {
+  font-size: 1.5rem;
+}
+
+.card p {
+  color: #555;
+}
+
+.detailsSection {
+  margin: 3rem;
+}
+
+.feedbackSection {
+  margin: 3rem;
+  text-align: center;
 }

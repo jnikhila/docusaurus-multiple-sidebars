@@ -1,47 +1,60 @@
 ---
-sidebar_position: 1
+id: intro
+title: Multiple Sidebar using Docusaurus
+slug: /
 ---
 
-# Tutorial Intro
+# Multiple Sidebar using Docusaurus
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Welcome to our **Docusaurus** project that demonstrates how to set up **multiple sidebars** in a documentation website. This project is tailored to provide flexibility for navigating through different sections of the documentation with ease.
 
-## Getting Started
+## Multiple Sidebar Navigation
 
-Get started by **creating a new site**.
+This project showcases multiple sidebars, allowing you to split your documentation into logical groups. Each section gets its own dedicated sidebar to provide better navigation and user experience.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+We’ve split the documentation into the following sections:
 
-### What you'll need
+- **Getting Started**: Learn how to get up and running with this project and understand the basic setup.
+- **Deployment**: Step-by-step guides to help you deploy your application in various environments.
+- **Code Best Practices**: Find guidelines and tips for writing quality code and contributing to the project.
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+Check out the documentation links below to explore these sections in detail!
 
-## Generate a new site
+<div className="cardsContainer">
+  <div className="card">
+    <h3>Getting Started</h3>
+    <p>Learn how to set up and start using our product with comprehensive guides.</p>
+    <a className="button button--primary" href="/docs/getting-started">Get Started</a>
+  </div>
 
-Generate a new Docusaurus site using the **classic template**.
+  <div className="card">
+    <h3>Deploy</h3>
+    <p>Step-by-step instructions on deploying your application in various environments.</p>
+    <a className="button button--primary" href="/docs/deploy">Learn Deployment</a>
+  </div>
 
-The classic template will automatically be added to your project after you run the command:
+  <div className="card">
+    <h3>Write Code</h3>
+    <p>Find guidelines and best practices for writing code and contributing to our project.</p>
+    <a className="button button--primary" href="/docs/write-code">Explore Coding</a>
+  </div>
+</div>
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+## Why Use Multiple Sidebars?
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+Multiple sidebars allow you to create well-organized, scalable documentation, especially for projects with various distinct areas. For example:
+- You can group "Getting Started" topics in one sidebar.
+- Group advanced topics like "Deployment" in another.
+- Provide in-depth guides and best practices under a different sidebar.
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+### How to Configure Multiple Sidebars
 
-## Start your site
+Want to learn how to configure multiple sidebars in your own Docusaurus project? Check out our guide on [setting up multiple sidebars](/docs/sidebar-setup).
 
-Run the development server:
+## Feedback
 
-```bash
-cd my-website
-npm run start
-```
+We’d love to hear your feedback and suggestions. Feel free to [open an issue](https://github.com/your-repo/issues) or contribute to this documentation.
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+---
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+<small>Last updated: September 2024</small>
