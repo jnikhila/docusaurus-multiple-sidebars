@@ -11,7 +11,7 @@
 }
 
 [data-theme='dark'] {
-  --ifm-color-primary: #f0793a;
+  --ifm-color-primary: #f0793a; 
   --ifm-color-primary-dark: #f39063;
   --ifm-color-primary-darker: #1fa588;
   --ifm-color-primary-darkest: #1a8870;
