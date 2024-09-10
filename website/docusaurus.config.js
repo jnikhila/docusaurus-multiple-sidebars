@@ -22,6 +22,7 @@ const config = {
       'classic',
       ({
         docs: {
+          routeBasePath: '/',
           sidebarPath: './sidebars.js',
           editUrl:
             'https://github.com/jnikhila/docusaurus-multiple-sidebars',

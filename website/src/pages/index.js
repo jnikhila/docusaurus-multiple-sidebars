@@ -35,17 +35,17 @@ export default function Home() {
             <div className={clsx('card', styles.card)}>
               <h3>Getting Started</h3>
               <p>Comprehensive guides for setting up and using the project.</p>
-              <Link className="button button--primary" to="/docs/getting-started">Get Started</Link>
+              <Link className="button button--primary" to="/getting-started/quickstart">Get Started</Link>
             </div>
             <div className={clsx('card', styles.card)}>
               <h3>Deploy</h3>
               <p>Comprehensive guides providing step-by-step deployment instructions.</p>
-              <Link className="button button--primary" to="/docs/deploy">Learn Deployment</Link>
+              <Link className="button button--primary" to="/deploy/bestpractices">Learn Deployment</Link>
             </div>
             <div className={clsx('card', styles.card)}>
               <h3>Write Code</h3>
               <p>Best practices and guidelines for writing and contributing code.</p>
-              <Link className="button button--primary" to="/docs/write-code">Explore Coding</Link>
+              <Link className="button button--primary" to="/write-code/bestpractices">Explore Coding</Link>
             </div>
           </div>
           <hr/>
