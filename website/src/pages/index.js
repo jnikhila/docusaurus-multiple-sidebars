@@ -59,7 +59,7 @@ export default function Home() {
             <li>Deployment - in another sidebar.</li>
             <li>Write Code - in a third sidebar.</li>
           </ul>
-          <p>Learn how to configure them in your own project by visiting the guide on <Link to="https://www.nikhilajain.com">setting up multiple sidebars</Link>.</p>
+          <p>Learn how to configure them in your own project by visiting the guide on <Link to="https://www.nikhilajain.com/post/how-to-set-up-multiple-sidebars-in-docusaurus">setting up multiple sidebars</Link>.</p>
         </section>
 
         <section className={styles.feedbackSection}>
