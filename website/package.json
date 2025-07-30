@@ -15,8 +15,6 @@
   },
   "resolutions": {
     "brace-expansion": "1.1.12",
-    "on-headers": "1.1.0",
-    "webpack-dev-server": "5.2.1",
     "path-to-regexp": "1.9.0"
   },
   "dependencies": {
@@ -26,11 +24,15 @@
     "clsx": "^2.0.0",
     "prism-react-renderer": "^2.3.0",
     "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "react-dom": "^18.0.0",
+    "webpack-dev-server": ">=5.2.1",
+    "on-headers": ">=1.1.0"
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "^3.8.1",
-    "@docusaurus/types": "^3.8.1"
+    "@docusaurus/types": "^3.8.1",
+    "webpack-dev-server": ">=5.2.1",
+    "on-headers": ">=1.1.0"
   },
   "browserslist": {
     "production": [
