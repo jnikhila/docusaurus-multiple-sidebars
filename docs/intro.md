@@ -1,12 +1,11 @@
 ---
 id: intro
 title: Multiple Sidebar using Docusaurus
-slug: /
 ---
 
 # Multiple Sidebar using Docusaurus
 
-Welcome to our **Docusaurus** project that demonstrates how to set up **multiple sidebars** in a documentation website. This project is tailored to provide flexibility for navigating through different sections of the documentation with ease.
+Welcome to our **Docusaurus** project that demonstrates how to set up **multiple sidebars** in a documentation docusaurus-multiple-sidebars. This project is tailored to provide flexibility for navigating through different sections of the documentation with ease.
 
 ## Multiple Sidebar Navigation
 

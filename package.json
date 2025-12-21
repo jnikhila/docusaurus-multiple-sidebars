@@ -1,5 +1,5 @@
 {
-  "name": "website",
+  "name": "docusaurus-multiple-sidebars",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -18,8 +18,8 @@
     "path-to-regexp": "1.9.0"
   },
   "dependencies": {
-    "@docusaurus/core": "^3.8.1",
-    "@docusaurus/preset-classic": "^3.8.1",
+    "@docusaurus/core": "^3.9.2",
+    "@docusaurus/preset-classic": "^3.9.2",
     "@mdx-js/react": "^3.0.0",
     "clsx": "^2.0.0",
     "prism-react-renderer": "^2.3.0",
@@ -29,8 +29,8 @@
     "on-headers": "^1.1.0"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "^3.8.1",
-    "@docusaurus/types": "^3.8.1",
+    "@docusaurus/module-type-aliases": "^3.9.2",
+    "@docusaurus/types": "^3.9.2",
     "webpack-dev-server": "5.2.1",
     "on-headers": "^1.1.0"
   },
@@ -47,6 +47,6 @@
     ]
   },
   "engines": {
-    "node": ">=18.0"
+    "node": ">=20.0"
   }
 }

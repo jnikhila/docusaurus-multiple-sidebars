@@ -3,7 +3,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Nikhila Jain',
   tagline: 'Technical Writer',
-  favicon: 'img/nikhilaJainFavicon.jpg',
+  favicon: 'img/favicon.ico',
 
   url: 'https://your-docusaurus-site.example.com',
   baseUrl: '/',
@@ -11,7 +11,6 @@ const config = {
   organizationName: 'jnikhila', 
   projectName: 'docusaurus-multiple-sidebars', 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -37,12 +36,12 @@ const config = {
 
   themeConfig:
     ({
-      image: 'img/nikhilaJainFavicon.jpg',
+      image: 'img/favicon.ico',
       navbar: {
         title: 'Nikhila Jain',
         logo: {
           alt: 'Nikhila Jain Logo',
-          src: 'img/nikhilaJainFavicon.jpg',
+          src: 'img/favicon.ico',
         },
         items: [
           {
