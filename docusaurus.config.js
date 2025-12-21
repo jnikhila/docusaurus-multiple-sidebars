@@ -2,11 +2,11 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 const config = {
   title: 'Nikhila Jain',
-  tagline: 'Technical Writer',
+  tagline: 'AI Native docs Architect & Staff Technical Writer',
   favicon: 'img/favicon.ico',
 
-  url: 'https://your-docusaurus-site.example.com',
-  baseUrl: '/',
+  url: 'https://jnikhila.github.io/docusaurus-multiple-sidebars',
+  baseUrl: '/docusaurus-multiple-sidebars/',
 
   organizationName: 'jnikhila', 
   projectName: 'docusaurus-multiple-sidebars', 
