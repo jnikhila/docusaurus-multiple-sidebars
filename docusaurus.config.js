@@ -5,8 +5,8 @@ const config = {
   tagline: 'AI Native docs Architect & Staff Technical Writer',
   favicon: 'img/favicon.ico',
 
-  url: 'https://jnikhila.github.io/docusaurus-multiple-sidebars',
-  baseUrl: '/',
+  url: 'https://jnikhila.github.io',
+  baseUrl: '/docusaurus-multiple-sidebars/',
 
   organizationName: 'jnikhila', 
   projectName: 'docusaurus-multiple-sidebars', 
