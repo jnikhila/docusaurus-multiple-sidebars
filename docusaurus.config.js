@@ -6,7 +6,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   url: 'https://jnikhila.github.io/docusaurus-multiple-sidebars',
-  baseUrl: '/docusaurus-multiple-sidebars/',
+  baseUrl: '/',
 
   organizationName: 'jnikhila', 
   projectName: 'docusaurus-multiple-sidebars', 
