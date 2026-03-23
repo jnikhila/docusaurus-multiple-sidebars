@@ -13,9 +13,13 @@
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids"
   },
+  "overrides": {
+    "serialize-javascript": "7.0.3"
+  },
   "resolutions": {
     "brace-expansion": "1.1.12",
-    "path-to-regexp": "1.9.0"
+    "path-to-regexp": "1.9.0",
+    "serialize-javascript": "7.0.3"
   },
   "dependencies": {
     "@docusaurus/core": "^3.9.2",
