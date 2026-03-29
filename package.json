@@ -17,7 +17,7 @@
     "serialize-javascript": "7.0.3"
   },
   "resolutions": {
-    "brace-expansion": "1.1.12",
+    "brace-expansion": "1.1.13",
     "path-to-regexp": "1.9.0",
     "serialize-javascript": "7.0.3"
   },
