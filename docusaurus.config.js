@@ -11,6 +11,20 @@ const config = {
   organizationName: 'jnikhila', 
   projectName: 'docusaurus-multiple-sidebars', 
   onBrokenLinks: 'throw',
+
+  plugins: [
+    function DisableWebpackCachePlugin(context, options) {
+      return {
+        name: 'disable-webpack-cache-plugin',
+        configureWebpack(config, isServer, utils) {
+          return {
+            cache: false,
+          };
+        },
+      };
+    },
+  ],
+
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
